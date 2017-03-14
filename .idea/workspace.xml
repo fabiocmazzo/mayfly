@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4e25a-cdef-42d9-9ff5-2d60be66d8ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/Server.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Delete.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Get.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Patch.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Post.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Put.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ClientThread.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpMethod.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpRequest.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpResponse.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Server.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ServerContext.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Status.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,51 +37,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Get.kt">
+      <file leaf-file-name="ServerContext.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ServerContext.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Post.kt">
+      <file leaf-file-name="Server.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Server.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="e#38#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientThread.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ClientThread.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#87#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRequest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpRequest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Put.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Put.kt">
+      <file leaf-file-name="HttpResponse.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpResponse.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="440">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Patch.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Patch.kt">
+      <file leaf-file-name="Status.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Status.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="680">
+              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Delete.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Delete.kt">
+      <file leaf-file-name="HttpMethod.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpMethod.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -112,6 +147,14 @@
         <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Put.kt" />
         <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Patch.kt" />
         <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Delete.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ServerContext.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Server.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpMethod.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpRequest.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpResponse.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Status.kt" />
+        <option value="$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ClientThread.kt" />
       </list>
     </option>
   </component>
@@ -205,7 +248,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="annotations" />
+              <option name="myItemId" value="mayfly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,11 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="annotations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verbs" />
+              <option name="myItemId" value="mayfly" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,14 +487,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/Server.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/verbs/Get.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -489,6 +524,90 @@
         <state relative-caret-position="51">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/annotations/Server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ServerContext.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpMethod.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/HttpResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Status.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/Server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#38#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3777">
+          <caret line="366" column="11" lean-forward="false" selection-start-line="366" selection-start-column="11" selection-end-line="366" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/klotin/com/fabiomazzo/mayfly/server/ClientThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#87#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
