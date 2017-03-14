@@ -4,7 +4,6 @@ package com.fabiomazzo.mayfly.server
  * Created by fabiomazzo on 13/03/2017.
  */
 
-package org.kottpd
 
 import java.io.OutputStream
 import java.io.OutputStreamWriter

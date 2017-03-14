@@ -1,6 +1,5 @@
 package com.fabiomazzo.mayfly.server
 
-import java.io.File
 import java.io.FileInputStream
 import java.io.IOException
 import java.net.ServerSocket
@@ -15,7 +14,7 @@ import kotlin.reflect.KClass
 /**
  * Created by fabiomazzo on 13/03/2017.
  */
-class Server(val port: Int = (System.getProperty("server.port") ?: "9000").toInt()) {
+class Server(val port: Int) {
 
     val threadPool: ExecutorService = Executors.newCachedThreadPool()
     val bindings: Map<HttpMethod, MutableMap<String, (HttpRequest, HttpResponse) -> Any>> = mapOf(
@@ -160,7 +159,9 @@ class Server(val port: Int = (System.getProperty("server.port") ?: "9000").toInt
     }
 
 
-fun <T> Iterable<T>.firstOrElse(eval: () -> T): T {
-    return this.firstOrNull() ?: return eval.invoke()
+    fun <T> Iterable<T>.firstOrElse(eval: () -> T): T {
+        return this.firstOrNull() ?: return eval.invoke()
+    }
+
 }
 
